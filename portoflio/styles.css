@@ -1,0 +1,24 @@
+header {
+  font-weight: bold;
+}
+
+body {
+  padding-left: 200px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+@media (max-width: 1024px) {
+  body {
+    min-height: 100px;
+    padding-left: 50px;
+  }
+}
